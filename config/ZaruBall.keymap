@@ -110,11 +110,11 @@
             display-name = "Base";
             sensor-bindings = <&scroll_down_up>;
             bindings = <
-&kp ESC    &kp N1      &kp N2  &kp N3    &kp N4     &kp N5                            &kp KP_N7     &kp KP_N8  &kp KP_N9   &kp KP_DIVIDE                 &kp NUMBER_6  &kp N7  &kp N8     &kp N9   &kp N0    &kp MINUS
-&kp TAB    &kp Q       &kp W   &kp E     &kp R      &kp T                             &kp KP_N4     &kp KP_N5  &kp KP_N6   &kp KP_MULTIPLY               &kp Y         &kp U   &kp I      &kp O    &kp P     &kp EQUAL
-&kp CAPS   &kp A       &kp S   &kp D     &kp F      &kp G               &kp INS       &kp KP_N1     &kp KP_N2  &kp KP_N3   &kp KP_MINUS       &kp LBKT   &kp H         &kp J   &kp K      &kp L    &kp SEMI  &kp SQT
-&kp LSHFT  &kp Z       &kp X   &kp C     &kp V      &kp B               &kp GRAVE     &kp KP_ENTER  &kp KP_N0  &kp KP_DOT  &kp KP_PLUS        &kp RBKT   &kp N         &kp M   &kp COMMA  &kp DOT  &kp FSLH  &lt SCROLL BACKSLASH
-&td0       &kp C_MUTE          &kp LWIN  &kp LCTRL  &SandS LSHFT SPACE  &mo SCROLL                                                            &lt 3 RET  &kp BSPC                                            &td1
+&kp ESC           &kp N1      &kp N2  &kp N3    &kp N4     &kp N5                            &kp KP_N7     &kp KP_N8  &kp KP_N9   &kp KP_DIVIDE                 &kp NUMBER_6  &kp N7  &kp N8     &kp N9   &kp N0    &kp MINUS
+&kp TAB           &kp Q       &kp W   &kp E     &kp R      &kp T                             &kp KP_N4     &kp KP_N5  &kp KP_N6   &kp KP_MULTIPLY               &kp Y         &kp U   &kp I      &kp O    &kp P     &kp EQUAL
+&kp CAPS          &kp A       &kp S   &kp D     &kp F      &kp G               &kp TAB       &kp KP_N1     &kp KP_N2  &kp KP_N3   &kp KP_MINUS       &kp MINUS  &kp H         &kp J   &kp K      &kp L    &kp SEMI  &kp SQT
+&kp LSHFT         &kp Z       &kp X   &kp C     &kp V      &kp B               &kp CAPS      &kp KP_ENTER  &kp KP_N0  &kp KP_DOT  &kp KP_PLUS        &kp RBKT   &kp N         &kp M   &kp COMMA  &kp DOT  &kp FSLH  &lt SCROLL BACKSLASH
+&kp LEFT_CONTROL  &kp C_MUTE          &kp LWIN  &kp LCTRL  &SandS LSHFT SPACE  &mo SCROLL                                                            &kp BSPC   &kp ENTER                                           &td1
             >;
         };
 
@@ -122,11 +122,11 @@
             display-name = "Mouse";
             sensor-bindings = <&scroll_down_up>;
             bindings = <
-&to_layer_0 ESC     &to_layer_0 N1  &to_layer_0 N2  &to_layer_0 N3  &to_layer_0 N4  &to_layer_0 N5                     &trans  &trans  &trans  &trans                     &to_layer_0 N6  &to_layer_0 N7  &to_layer_0 N8  &to_layer_0 N9      &to_layer_0 N0            &to_layer_0 MINUS
-&to_layer_0 TAB     &to_layer_0 Q   &to_layer_0 W   &to_layer_0 E   &to_layer_0 R   &to_layer_0 T                      &trans  &trans  &trans  &trans                     &to_layer_0 Y   &to_layer_0 U   &to_layer_0 I   &to_layer_0 O       &to_layer_0 P             &to_layer_0 EQUAL
-&to_layer_0 CAPS    &to_layer_0 A   &mkp RCLK       &mkp MCLK       &mkp LCLK       &msc SCRL_UP    &msc SCRL_LEFT     &trans  &trans  &trans  &trans    &msc SCRL_LEFT   &msc SCRL_UP    &mkp LCLK       &mkp MCLK       &mkp RCLK           &to_layer_0 SINGLE_QUOTE  &to_layer_0 SEMICOLON
-&to_layer_0 LSHIFT  &to_layer_0 Z   &to_layer_0 X   &mkp MB4        &mkp MB5        &msc SCRL_DOWN  &msc SCRL_RIGHT    &trans  &trans  &trans  &trans    &msc SCRL_RIGHT  &msc SCRL_DOWN  &mkp MB4        &mkp MB5        &to_layer_0 PERIOD  &to_layer_0 SLASH         &lt SCROLL BACKSLASH
-&trans              &trans                          &trans          &trans          &trans          &trans                                               &trans           &trans                                                                                        &trans
+&to_layer_0 ESC     &to_layer_0 N1  &to_layer_0 N2  &to_layer_0 N3  &to_layer_0 N4  &to_layer_0 N5                     &trans  &trans  &trans  &trans                     &to_layer_0 N6  &to_layer_0 N7  &to_layer_0 N8  &to_layer_0 N9      &to_layer_0 N0     &to_layer_0 MINUS
+&to_layer_0 TAB     &to_layer_0 Q   &to_layer_0 W   &to_layer_0 E   &to_layer_0 R   &to_layer_0 T                      &trans  &trans  &trans  &trans                     &to_layer_0 Y   &to_layer_0 U   &to_layer_0 I   &mo 2               &to_layer_0 P      &to_layer_0 EQUAL
+&to_layer_0 CAPS    &to_layer_0 A   &mkp RCLK       &mkp MCLK       &mkp LCLK       &msc SCRL_UP    &msc SCRL_LEFT     &trans  &trans  &trans  &trans    &msc SCRL_LEFT   &msc SCRL_UP    &mkp LCLK       &mkp MCLK       &trans              &mkp RCLK          &to_layer_0 SEMICOLON
+&to_layer_0 LSHIFT  &to_layer_0 Z   &to_layer_0 X   &mkp MB4        &mkp MB5        &msc SCRL_DOWN  &msc SCRL_RIGHT    &trans  &trans  &trans  &trans    &msc SCRL_RIGHT  &msc SCRL_DOWN  &mkp MB4        &mkp MB5        &to_layer_0 PERIOD  &to_layer_0 SLASH  &lt SCROLL BACKSLASH
+&kp GRAVE           &trans                          &kp LEFT_GUI    &trans          &trans          &trans                                               &trans           &trans                                                                                 &trans
             >;
         };
 
