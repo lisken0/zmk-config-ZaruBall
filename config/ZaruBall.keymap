@@ -134,11 +134,11 @@
             display-name = "Lower";
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
             bindings = <
-&trans  &kp F1     &kp F2    &kp F3    &kp F4     &kp F5                 &trans  &trans  &trans  &trans              &bt BT_SEL 0    &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4     &kp C_BRIGHTNESS_INC
-&trans  &kp F6     &kp F7    &kp F8    &kp F9     &kp F10                &trans  &trans  &trans  &trans              &bt BT_CLR_ALL  &bt BT_CLR    &kp KP_N5     &kp KP_N6     &kp KP_MULTIPLY  &kp C_BRIGHTNESS_DEC
-&trans  &kp F11    &kp F12   &kp UP    &none      &kp HOME  &kp PG_UP    &trans  &trans  &trans  &trans    &kp LPAR  &kp C_VOL_UP    &kp KP_N1     &kp KP_N2     &kp KP_N3     &kp KP_MINUS     &kp C_VOLUME_UP
-&trans  &none      &kp LEFT  &kp DOWN  &kp RIGHT  &kp END   &kp PG_DN    &trans  &trans  &trans  &trans    &kp RPAR  &kp C_VOL_DN    &kp KP_DOT    &kp KP_N0     &kp KP_EQUAL  &kp KP_PLUS      &kp C_VOL_DN
-&trans  &kp RSHFT            &trans    &trans     &trans    &trans                                         &trans    &kp DEL                                                                    &studio_unlock
+&trans  &kp F1     &kp F2    &kp F3    &kp F4     &kp F5                 &trans  &trans  &trans  &trans                    &bt BT_SEL 0     &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4     &kp C_BRIGHTNESS_INC
+&trans  &kp F6     &kp F7    &kp F8    &kp F9     &kp F10                &trans  &trans  &trans  &trans                    &bt BT_CLR_ALL   &bt BT_CLR    &kp KP_N5     &kp KP_N6     &kp KP_MULTIPLY  &kp C_BRIGHTNESS_DEC
+&trans  &kp F11    &kp F12   &kp UP    &none      &kp HOME  &kp PG_UP    &trans  &trans  &trans  &trans    &kp LPAR        &kp C_VOL_UP     &kp KP_N1     &kp KP_N2     &kp KP_N3     &kp KP_MINUS     &kp C_VOLUME_UP
+&trans  &none      &kp LEFT  &kp DOWN  &kp RIGHT  &kp END   &kp PG_DN    &trans  &trans  &trans  &trans    &kp RPAR        &kp C_VOL_DN     &kp KP_DOT    &kp KP_N0     &kp KP_EQUAL  &kp KP_PLUS      &kp C_VOL_DN
+&trans  &kp RSHFT            &trans    &trans     &trans    &trans                                         &kp LEFT_ARROW  &kp RIGHT_ARROW                                                             &studio_unlock
             >;
         };
 
